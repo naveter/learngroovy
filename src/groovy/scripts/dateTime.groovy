@@ -7,7 +7,8 @@ def today = new Date() + 1
 def tommorow = today.format(acceptedFormat)
 println( "Tommorow: ${tommorow}")
 
-use(TimeCategory) {
+// category classes
+use TimeCategory, {
     def oneYear = today + 1.year
     println "One year plus: " + oneYear
 

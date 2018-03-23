@@ -9,7 +9,8 @@ println "File 2: " + args[1]
 
 def file = new File(path + args[0])
 if(!file.exists()) throw new Exception("File 1 does not exists")
-file.eachLine { file1Map[it] = 1 }
+file.eachLine { file1Map[it] = file1Map.get(it, 0) + 1 }
+//file.eachLine { file1Map[it] = 1 }
 
 println("File 1 contain " + file1Map.size())
 

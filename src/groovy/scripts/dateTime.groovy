@@ -16,4 +16,5 @@ use TimeCategory, {
     println "One month plus: " + ninetyDays
 }
 
+Object 0;
 

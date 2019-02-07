@@ -19,3 +19,5 @@ use TimeCategory, {
 Object 0;
 
 // test comment
+// comment 2
+// before amend

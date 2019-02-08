@@ -16,6 +16,7 @@ use TimeCategory, {
     println "One month plus: " + ninetyDays
 }
 
-Object 0;
 
 // second commit from test1
+// first commit from test1
+// first commit from test1

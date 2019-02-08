@@ -17,8 +17,6 @@ class TimerTaskExample extends TimerTask {
 //timer = new Timer()
 //timer.scheduleAtFixedRate(new TimerTaskExample(), 1000, 5000)
 
-// In branch test
-// comment before amend
-// fix conflicts in rebase
+// first commit from test1
 
 

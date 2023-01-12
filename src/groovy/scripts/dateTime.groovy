@@ -16,6 +16,12 @@ use TimeCategory, {
     println "One month plus: " + ninetyDays
 }
 
-Object 0;
+import java.util.GregorianCalendar as D
+import static java.util.Calendar.getInstance as now
 
-// second commit from test1
+print (new D(2011, 11, 25).time) + ' '
+print (now().time) + ' '
+
+dateStr = "2011-06-03"
+date = Date.parse("yyyy-MM-dd", dateStr)
+println 'Date was ' + date.format("MM/dd/yyyy")
